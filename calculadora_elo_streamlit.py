@@ -2,7 +2,7 @@ import streamlit as st
 x = st.slider("Select a value")
 st.write(x, "squared is", x * x)
 
-$ streamlit run calculadora_elo_streamlit.py
+$ streamlit run streamlit_app.py
 
 import streamlit as st
 
