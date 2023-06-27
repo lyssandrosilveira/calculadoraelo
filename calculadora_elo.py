@@ -1,3 +1,5 @@
+import streamlit as st
+
 def calculate_probability(ELO_mandante, ELO_visitante):
     if ELO_mandante == 0 and ELO_visitante == 0:
         return 0.5
@@ -21,6 +23,10 @@ def main():
     probability = calculate_probability(ELO_mandante, ELO_visitante)
 
     st.write(f"A probabilidade do time da casa vencer é: {probability:.2%}")
+
+if __name__ == '__main__':
+    main()
+
 
     # Exibe o crédito do desenvolvedor
     st.write("Desenvolvido por Lyssandro Silveira")
