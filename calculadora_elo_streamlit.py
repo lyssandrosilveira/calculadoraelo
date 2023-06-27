@@ -15,13 +15,13 @@ def main():
         probability = calculate_probability(ELO_mandante, ELO_visitante)
         st.write(f"A probabilidade do time mandante vencer é: {probability:.2%}")
 
+if __name__ == '__main__':
+    main()
+
+
     # Adicionar link de atalho
     st.markdown("Clique [aqui](http://clubelo.com/) para acessar o Club Elo.")
 
     # Adicionar texto de desenvolvimento
     st.write("Desenvolvido por Lyssandro Silveira")
-
-
-if __name__ == '__main__':
-    main()
 
