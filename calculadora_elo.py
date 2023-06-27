@@ -24,11 +24,7 @@ def main():
 
     st.write(f"A probabilidade do time da casa vencer é: {probability:.2%}")
 
-if __name__ == '__main__':
-    main()
-
-
-    # Exibe o crédito do desenvolvedor
+  # Exibe o crédito do desenvolvedor
     st.write("Desenvolvido por Lyssandro Silveira")
 
 if __name__ == '__main__':
