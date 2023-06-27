@@ -1,4 +1,4 @@
-import streamlit as st
+
 
 def calculate_probability(ELO_mandante, ELO_visitante):
     if ELO_mandante == 0 and ELO_visitante == 0:
